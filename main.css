@@ -1,0 +1,69 @@
+ body {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	background-color: #000;
+	color: #fff;
+	font-size: 12pt;
+}
+canvas {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	/* background-color: #fff; */
+}
+.fixedBlocks {
+	padding-top: 15px;
+	position: absolute;
+	text-align: center;
+	/* background-color: #0f0;
+	border-radius: 10px;
+	border: #f00 1px solid; */
+}
+.button {
+border-radius: 15px;
+background-color: #55f;
+cursor: pointer;
+width: 50%;
+position: absolute;
+left: 50%;
+text-transform: uppercase;
+transform: translate(-50%);
+transition: 500ms;
+}
+.button:hover {
+	background-color: #5f5;
+	color: #000;
+	width: 55%;	
+}
+#start_stopButton {
+	font-size: 20pt;
+	top:95%;
+}
+#infoBox {
+	width: 15vw;
+	height: 90vh;
+}
+#generationInfoBox {
+	width: 70vw;
+	height: 10vh;
+	left: 15vw;
+}
+#graphBox {
+	width: 15vw;
+	height: 90vh;
+	left: 85vw;
+}
+#lifeAreaBox {
+	/* background-color: #fff; */
+	width: 70vw;
+	height: 80vh;
+	left: 15vw;
+	top: 10vh;
+	border: none;
+	border-radius: 0;
+}
+#weatherArea {
+	opacity: 0.2;
+}

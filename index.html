@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Genetic Algorithm 2.0</title>
+	<link rel="stylesheet" href="main.css">
+	<!-- <script src="preparing.js"></script> -->
+	<!-- <script src="visualisation.js"></script> -->
+	<!-- <script src="math.js"></script> -->
+	<script src="main.js"></script>
+	<!-- <script src="debug.js"></script> -->
+	<link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+</head>
+<body>
+	<div class="fixedBlocks" id="infoBox">#infoBox
+		<br>
+		<p>Size: <span id="columnsValueSpot">...</span> x <span id="rowsValueSpot">...</span></p>
+		<p>Rounds: <span id="iterationsValueSpot">...</span></p>
+	</div>
+	<div class="fixedBlocks" id="generationInfoBox">generationInfoBox</div>
+	<div class="fixedBlocks" id="graphBox">graphBox
+		<div class="button" id="start_stopButton">...</div>
+	</div>
+	<div class="fixedBlocks" id="lifeAreaBox">
+		<canvas id="lifeArea"></canvas>
+		<canvas id="weatherArea"></canvas>
+	</div>
+	<script>init();</script>
+</body>
+</html>
